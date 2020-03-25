@@ -1,0 +1,15 @@
+$primary-font: 'Rubik', sans-serif;
+$secondary-font: 'Quicksand', sans-serif;
+
+$primary-color: #4191e3;
+$secondary-color: #2dbe3e;
+$warning: #fff600;
+
+$padding: 1.5rem;
+$max-width: 75rem;
+
+@mixin letterspacing {
+    font-size: .8rem;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+}

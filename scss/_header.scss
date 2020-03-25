@@ -1,0 +1,48 @@
+#header {
+    border-bottom: 1px solid #eee;
+}
+
+#branding {
+    margin: 0 auto;
+    max-width: $max-width;
+    #site-title {
+        padding: $padding;
+        display: flex;
+        align-items: center;
+        #main-logo {
+            flex: 1;
+            min-width: 200px;
+        }
+        #menu {
+            flex: 4;
+            text-align: right;
+            ul {
+                li {
+                    display: inline;
+                    padding: 0rem 0.5rem;
+                    &:nth-last-child(1) {
+                        padding: 0.25rem 0.75rem 0.35rem 0.75rem;
+                        border-radius: 15px;
+                        background: $secondary-color;
+                        transition: all 0.25s ease-in-out;
+                        a {
+                            color: #fff !important;
+                            font-weight: bold;
+                        }
+                    }
+                    &:nth-last-child(1):hover {
+                        background: darken($secondary-color, 5%);
+                        color: #fff;
+                    }
+                    a {
+                        @include letterspacing;
+                        transition: color 0.25s ease-in-out;
+                        &:hover {
+                            color: darken($primary-color, 25%);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

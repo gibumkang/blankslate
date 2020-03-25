@@ -1,0 +1,35 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.1/css/bulma.min.css';
+@import url(https://fonts.googleapis.com/css?family=Quicksand|Rubik&display=swap);
+@import 'variables';
+@import 'header';
+@import 'footer';
+@import 'components';
+
+body {
+    font-size: 62.5%;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: $primary-font;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4, h5 {
+    font-size: 1.25rem;
+}
+
+p, a, div {
+    font-family: $secondary-font;
+    font-size: 1rem;
+}
