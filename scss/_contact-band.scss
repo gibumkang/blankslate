@@ -1,0 +1,38 @@
+.contact-band {
+    background: $primary-color;
+    margin: 0 auto;
+    padding: $padding;
+    text-align: center;
+    color: #fff;
+    h3 {
+        padding-top: 2rem;
+    }
+    strong {
+        color: $warning;
+        white-space: nowrap;
+    }
+    .flex-contact {
+        padding: 3rem 0rem;
+        margin: 0 auto;
+        max-width: 71rem;
+        display: flex;
+        align-items: center;
+        @media screen and (max-width: 580px) {
+            display: block;
+            padding: 0rem;
+            div {
+                margin: 2rem 0rem;
+            }
+        }
+        div {
+            flex: 1;
+            a {
+                color: #fff;
+            }
+            img {
+                max-width: 50px;
+                height: auto;
+            }
+        }
+    }
+}

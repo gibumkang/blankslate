@@ -1,5 +1,5 @@
-$primary-font: 'Rubik', sans-serif;
-$secondary-font: 'Quicksand', sans-serif;
+$primary-font: "Rubik", sans-serif;
+$secondary-font: "Quicksand", sans-serif;
 
 $primary-color: #4191e3;
 $secondary-color: #2dbe3e;
@@ -7,9 +7,34 @@ $warning: #fff600;
 
 $padding: 1.5rem;
 $max-width: 75rem;
+$inner-width: 65rem;
 
 @mixin letterspacing {
-    font-size: .8rem;
-    letter-spacing: .1rem;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
     text-transform: uppercase;
+}
+
+@mixin flex($divpadding, $divmargin) {
+    display: flex;
+    margin: 0 auto;
+    max-width: $inner-width;
+    padding: 1rem 0rem;
+    @media screen and (max-width: 40rem) {
+        display: block;
+    }
+    div {
+        flex: 1;
+        padding: $divpadding;
+        margin: $divmargin;
+    }
+}
+
+@mixin tabs($imagesource) {
+    background: url($imagesource) no-repeat center;
+    background-size: cover;
+    transition: all 0.15s ease-in-out;
+    &:hover {
+        transform: scale(1.03);
+    }
 }

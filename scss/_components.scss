@@ -17,17 +17,171 @@
     text-align: center;
 }
 
+/* Flex Callout */
 .flex-callout {
-    display: flex;
-    margin: 0 auto;
-    max-width: 55rem;
-    @media screen and (max-width: 40rem){
+    @include flex(1rem, 0.5rem);
+}
+
+.flex-ipad {
+    @include flex(0rem, 0rem);
+    padding-bottom: 0rem;
+    margin-bottom: 0rem;
+    align-items: center;
+    align-content: center;
+    div img {
         display: block;
     }
-    div {
+    @media screen and (max-width: 770px) {
+        display: block;
+        div:nth-child(1) {
+            ul {
+                list-style: none;
+                text-align: center;
+            }
+        }
+        div:nth-child(2) {
+            img {
+                max-width: 300px;
+                margin: 0 auto;
+                display: block;
+            }
+        }
+    }
+}
+
+/* Chat Module */
+.chat-bg {
+    background: $primary-color;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15);
+}
+.chat-module {
+    max-width: $max-width/1.25;
+    padding: 2.5rem 0rem;
+    margin: 1.75rem auto 0rem auto;
+    display: flex;
+    .photo {
         flex: 1;
-        background: #ccc;
+        position: relative;
+        img {
+            width: 15rem;
+            height: auto;
+            position: absolute;
+            bottom: -123px;
+            left: 40px;
+        }
+    }
+    .text-area {
+        flex: 3;
+        text-align: center;
+        color: #fff;
+        strong {
+            color: #fff;
+        }
+    }
+    @media screen and (max-width: 860px) {
+        display: block;
+        margin: 1rem auto 0rem auto;
+        .photo {
+            display: none;
+        }
+        .text-area {
+            padding: 0rem $padding;
+        }
+    }
+}
+
+/* Buttons */
+.live-chat {
+    color: $warning;
+    padding: 0.25rem 0.5rem;
+    border: 1px solid $warning;
+    margin: 0rem 0.5rem;
+    transition: all 0.25s ease-in-out;
+    font-weight: bold;
+    border-radius: 0.25rem;
+    white-space: nowrap;
+    &:hover {
+        background: $warning;
+        color: #001;
+    }
+    @media screen and (max-width: 540px) {
+        display: block;
+        max-width: 10rem;
+        text-align: center;
+        margin: 1rem auto;
+    }
+}
+
+.hp-bullet {
+    list-style: disc;
+    padding-left: 2rem;
+    @media screen and (max-width: 770px) {
+        padding-left: 0rem;
+    }
+    li {
+        font-size: 1.5rem;
+        padding: 0.75rem 0rem;
+        @media screen and (max-width: 960px) {
+            font-size: 1.25rem;
+        }
+        strong {
+            color: $primary-color;
+        }
+    }
+}
+
+.banner-card {
+    position: relative;
+    .banner-container {
+        position: absolute;
         padding: 1rem;
-        margin: .5rem;
+        top: 0rem;
+        left: 0rem;
+        max-width: 25rem;
+        color: #fff;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        background: rgba(35, 145, 227, 0.8);
+        @media screen and (max-width: 600px) {
+            max-width: 100%;
+        }
+        .banner-description {
+            padding-left: $padding;
+            .button {
+                margin: 1rem 0rem;
+                background: $secondary-color;
+                color: #fff;
+                border: 1px solid $secondary-color;
+            }
+        }
+    }
+    img {
+        width: 100%;
+        height: 22.5rem;
+        object-fit: cover;
+        display: block;
+    }
+}
+
+.page-name-container {
+    background: $primary-color;
+    padding: $padding;
+    .page-title {
+        max-width: $max-width;
+        padding: 0rem 1.5rem;
+        margin: 0 auto;
+        h1 {
+            color: #fff;
+        }
+    }
+}
+
+.page-description {
+    padding-top: 2rem;
+    text-align: center;
+    p {
+        max-width: 60rem;
+        margin: 0 auto;
     }
 }

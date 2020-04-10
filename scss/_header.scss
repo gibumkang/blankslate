@@ -1,10 +1,15 @@
-#header {
-    border-bottom: 1px solid #eee;
+/* This front header is absolutely positioned, and lies on top of the slider */
+#front-header {
+    position: absolute;
+    z-index: 100;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, 0%);
 }
 
 #branding {
-    margin: 0 auto;
     max-width: $max-width;
+    margin: 0 auto;
     #site-title {
         padding: $padding;
         display: flex;
@@ -35,10 +40,28 @@
                         color: #fff;
                     }
                     a {
+                        color: #eee;
                         @include letterspacing;
                         transition: color 0.25s ease-in-out;
                         &:hover {
-                            color: darken($primary-color, 25%);
+                            color: lighten(#fff, 25%);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Positioned relatively */
+#main-header {
+    #branding {
+        #site-title {
+            #menu {
+                ul {
+                    li {
+                        a {
+                            color: #001;
                         }
                     }
                 }

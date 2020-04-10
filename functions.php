@@ -9,8 +9,18 @@ function blankslate_setup()
     add_theme_support('html5', array('search-form'));
     global $content_width;
     if (!isset($content_width)) {$content_width = 1920;}
-    register_nav_menus(array('main-menu' => esc_html__('Main Menu', 'blankslate')));
 }
+function register_my_menus(){
+    register_nav_menus(
+        array(
+            'main-menu' => __('Main Menu', 'blankslate'),
+            'owners' => __('Owners', 'blankslate'),
+            'tenants' => __('Tenants', 'blankslate'),
+            'resources' => __('Resources', 'blankslate'),
+        )
+    );
+}
+add_action( 'init', 'register_my_menus' );
 add_action('wp_enqueue_scripts', 'blankslate_load_scripts');
 function blankslate_load_scripts()
 {
