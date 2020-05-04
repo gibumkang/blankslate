@@ -124,6 +124,46 @@
     }
 }
 
+/* two rows, four columns grid with no 3 columns */
+.grid-2-4-v2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    @media screen and (max-width: 900px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @media screen and (max-width: 560px) {
+        display: block;
+    }
+    div {
+        padding: $padding;
+        margin: 0.5rem 0.5rem 0.5rem 0rem;
+        font-size: 0.9rem;
+        @media screen and (max-width: 560px) {
+            max-width: 100%;
+        }
+        a {
+            font-size: 0.9rem;
+        }
+        h3 {
+            font-size: 1rem;
+            font-weight: bold;
+            color: $secondary-color;
+        }
+        i {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            color: $secondary-color;
+        }
+    }
+}
+
+.grid-2-4-v2.percentage {
+    h3 {
+        font-size: 2.5rem;
+        color: $secondary-color;
+    }
+}
+
 /* one row four column grid */
 .grid-1-4 {
     display: grid;

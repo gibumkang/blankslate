@@ -14,7 +14,7 @@
         </div>
         <div class="blockquote">
             A smart investor once said that, <em>'Nobody will ever manage your property as well as you do.'</em>
-            Unfortunately, that person had never heard of Atlas Group.
+            Unfortunately, that person had never heard of Americana.
             <strong class="source">-Owner Review</strong>
         </div>
         <p>

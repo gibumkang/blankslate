@@ -230,3 +230,34 @@
 .spacer {
     padding: $padding 0rem;
 }
+
+.fees-banner {
+    background: url("images/fees-bg.jpg") no-repeat center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    p {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    padding: $padding;
+    .textbox {
+        background: darken($secondary-color, 10%);
+        max-width: 200px;
+        border-radius: 5px;
+        margin: 1rem auto;
+        padding: $padding 1rem;
+        transition: all 0.15s ease-in-out;
+        &:hover {
+            transform: scale(1.05);
+        }
+        .smalltext {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .bigtext {
+            font-size: 2.5rem;
+        }
+    }
+}

@@ -9,11 +9,11 @@
         </p>
         <h3>Management Philosophy</h3>
         <p>
-            The Atlas Group LC believes in taking care of owners first, but not at the expense of the tenants. Happy tenants who are cared for stay longer, they cause fewer problems, pay higher rent, and as much as possible are a valued asset. We encourage making repairs as necessary to preserve property values and to make improvements when possible that will facilitate increased rental income and resale value.
+            The Americana LC believes in taking care of owners first, but not at the expense of the tenants. Happy tenants who are cared for stay longer, they cause fewer problems, pay higher rent, and as much as possible are a valued asset. We encourage making repairs as necessary to preserve property values and to make improvements when possible that will facilitate increased rental income and resale value.
         </p>
         <h3>Experience</h3>
         <p>
-            The founders of the company have been involved in real estate, rentals, and property management since 1978 in California and Nevada. We have been managing property in Las Vegas since 1993, but started the Atlas Group LC in June 1995. We specialize in the residential market handling single family homes, condominiums, townhomes, duplexes, triplexes, fourplexes, multi family units, apartments, and homeowner associations. Key personnel have degrees in Business Administration, Accounting, Economics, and Marketing in addition to their real estate training and property management experience.
+            The founders of the company have been involved in real estate, rentals, and property management since 1978 in California and Nevada. We have been managing property in Las Vegas since 1993, but started the Americana LC in June 1995. We specialize in the residential market handling single family homes, condominiums, townhomes, duplexes, triplexes, fourplexes, multi family units, apartments, and homeowner associations. Key personnel have degrees in Business Administration, Accounting, Economics, and Marketing in addition to their real estate training and property management experience.
         </p>
         <h3>Affiliations</h3>
         <ul>
