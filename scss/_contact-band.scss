@@ -1,7 +1,8 @@
 .contact-band {
-    background: $primary-color;
+    background: url("images/contact-band.jpg") no-repeat center;
+    background-size: cover;
     margin: 0 auto;
-    padding: $padding;
+    padding: $padding 0rem;
     text-align: center;
     color: #fff;
     h3 {
@@ -27,7 +28,7 @@
         div {
             flex: 1;
             a {
-                color: #fff;
+                color: $warning;
             }
             img {
                 max-width: 50px;

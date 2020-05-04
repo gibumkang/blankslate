@@ -7,6 +7,33 @@
     }
 }
 
+/* because page.php was edited, only the elements within this class will be affected */
+.content-container,
+.content-entry,
+.content-comments {
+    max-width: 65rem;
+    margin: 0 auto;
+    padding: 2.5rem 3rem;
+    h1 {
+        padding: 0.75rem 0rem 0.5rem 0rem;
+    }
+    h2 {
+        padding: 1rem 0rem 0.5rem 0rem;
+    }
+    h3 {
+        padding: 0.75rem 0rem 0.25rem 0rem;
+    }
+    p {
+        padding: 0.75rem 0rem;
+    }
+}
+
+.homes-bg {
+    background: url("images/homes-bg.jpg") no-repeat top center;
+    background-size: contain;
+    padding-top: 6.5rem;
+}
+
 .main-wrapper {
     padding: $padding;
     max-width: $max-width;
@@ -142,7 +169,7 @@
         height: 100%;
         display: flex;
         align-items: center;
-        background: rgba(35, 145, 227, 0.8);
+        background: rgba(46, 49, 145, 0.8);
         @media screen and (max-width: 600px) {
             max-width: 100%;
         }
@@ -184,4 +211,22 @@
         max-width: 60rem;
         margin: 0 auto;
     }
+}
+
+.blockquote {
+    width: 100%;
+    padding: 3rem 5rem;
+    background: #eee;
+    border-left: 5px solid #ccc;
+    margin: $padding auto;
+    .quotemark {
+        font-size: 2.5rem;
+    }
+    .source {
+        font-size: 1.25rem;
+    }
+}
+
+.spacer {
+    padding: $padding 0rem;
 }

@@ -73,10 +73,10 @@
                     <a href="<?php the_field('homepage-banner-card-link')?>" class="button">Learn More ></a>
                 </div>
             </div>
-            <img src="<?php echo $imagepath; ?>hp-banner.jpg" alt="" />
+            <img src="<?php echo $imagepath; ?>hp-banner.jpg" alt="Americana Property Management" />
         </div>
     </div>
-    <?php if (have_posts()): while (have_posts()): the_post();?>
+    <!--<?php if (have_posts()): while (have_posts()): the_post();?>
         <article id="post-<?php the_ID();?>" <?php post_class();?>>
             <header class="header">
                 <h1 class="entry-title"><?php the_title();?></h1> <?php edit_post_link();?>
@@ -88,7 +88,7 @@
             </div>
         </article>
         <?php if (comments_open() && !post_password_required()) {comments_template('', true);}?>
-    <?php endwhile;endif;?>
+    <?php endwhile;endif;?>-->
 </main>
 <?php get_sidebar();?>
 <?php get_footer();?>

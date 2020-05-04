@@ -1,0 +1,26 @@
+.callout-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 2.5rem 0rem;
+    @media screen and (max-width: 900px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @media screen and (max-width: 660px) {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .callout {
+        display: flex;
+        padding: $padding;
+        .image {
+            margin-right: 0.75rem;
+            min-width: 50px;
+        }
+        .content {
+            h3 {
+                font-weight: normal;
+                font-size: 1rem;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

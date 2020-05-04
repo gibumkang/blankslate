@@ -1,18 +1,41 @@
 @import "https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.1/css/bulma.min.css";
+@import "https://cdn.jsdelivr.net/npm/bulma-extensions@6.2.7/dist/css/bulma-extensions.min.css";
 /* prettier-ignore */
 @import url(https://fonts.googleapis.com/css?family=Quicksand:400,700|Rubik:400,500&display=swap);
 @import "margins-padding-helper";
 @import "variables";
 @import "header";
 @import "footer";
+/* general components */
 @import "components";
-@import "grid-with-links";
+/* grid to house all the tabs in major sections */
+@import "grid-styles";
+/* generic band that is used throughout the website */
 @import "contact-band";
+/* contact us section with flex */
+@import "contact-us";
+/* controls the sidebar which also houses the widgets */
+@import "sidebar";
+/* grid with portrait and basic information */
+@import "biogrid";
+/* custom accordion, make sure to align with js */
+@import "accordion";
+/* carries the styling for a full-wdith background with video */
+@import "full-width-bg-video";
+/* full-width proposal banner */
+@import "proposal-banner";
+/* standard marketing callout grid */
+@import "callout-grid";
+
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     font-size: 62.5%;
 }
 
+/* formatting inserted via WordPress, styling should be under component, not here */
 h1,
 h2,
 h3,
@@ -31,6 +54,7 @@ h2 {
 
 h3 {
     font-size: 1.5rem;
+    margin-bottom: 0.5rem;
 }
 
 h4,
@@ -41,6 +65,6 @@ h5 {
 p,
 a,
 div {
-    font-family: $secondary-font;
+    font-family: $primary-font;
     font-size: 1rem;
 }

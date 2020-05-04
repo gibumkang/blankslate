@@ -1,0 +1,50 @@
+.contact-us-container {
+    display: flex;
+    align-items: center;
+    span {
+        flex: 1;
+        padding: 2rem;
+    }
+    span:nth-child(1) {
+        text-align: center;
+        border-right: 1px solid #ccc;
+    }
+    @media screen and (max-width: 700px) {
+        display: block;
+        padding: $padding;
+        span:nth-child(1) {
+            border-right: 0px;
+        }
+    }
+}
+
+.contact-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 35rem;
+    margin: 0 auto;
+    padding: 3rem 0rem;
+    @media screen and (max-width: 1040px) {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    div {
+        text-align: center;
+        padding: 1.5rem 0rem;
+        flex: 1;
+    }
+}
+
+.contact-us-button {
+    background: $secondary-color !important;
+    border-radius: 15px !important;
+    border: 0px !important;
+    color: #fff !important;
+    padding: 0.5rem 2.5rem !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+    transition: all 0.25s ease-in-out;
+    &:hover {
+        background: darken($secondary-color, 5%) !important;
+    }
+}

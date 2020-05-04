@@ -1,13 +1,28 @@
 $primary-font: "Rubik", sans-serif;
 $secondary-font: "Quicksand", sans-serif;
 
-$primary-color: #4191e3;
+$primary-color: #2e3191; //#4191e3;
 $secondary-color: #2dbe3e;
+$primary-red: #b03033;
 $warning: #fff600;
 
 $padding: 1.5rem;
 $max-width: 75rem;
 $inner-width: 65rem;
+$mobilebreakpoint: 1140px;
+
+@mixin pill-button($background, $text-color) {
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+    background: $background;
+    color: $text-color;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.25s ease-in-out;
+    &:hover {
+        background: darken($background, 5%);
+    }
+}
 
 @mixin letterspacing {
     font-size: 0.8rem;

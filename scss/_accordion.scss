@@ -1,0 +1,90 @@
+.accordion-navigation {
+    text-align: center;
+    display: block;
+    @media screen and (min-width: 640px) {
+        display: none;
+    }
+    .navigation-flex {
+        display: flex;
+        max-width: 20rem;
+        margin: 0 auto;
+        & > a {
+            flex: 1;
+            background: $secondary-color;
+            margin: 1rem 0.25rem;
+            border-radius: 5px;
+            color: #fff;
+            padding: 0.25rem;
+            transition: all 0.25s ease-in-out;
+            &:hover {
+                background: darken($secondary-color, 10%);
+            }
+        }
+    }
+}
+.accordion-flex {
+    display: flex;
+    @media screen and (max-width: 640px) {
+        display: block;
+        .accordion-container {
+            margin: 3rem 0rem;
+        }
+    }
+    & > div {
+        flex: 1;
+        margin: 0rem 0.5rem;
+    }
+    .accordion-container {
+        opacity: 0.95;
+        h2 {
+            margin: 0.5rem 0rem;
+            text-align: center;
+        }
+        .accordion-tab {
+            background: lighten($primary-color, 10%);
+            padding: 1rem 0.5rem;
+            color: #fff;
+            border-top: 1px solid #ccc;
+            transition: all 0.25s ease-in-out;
+            border-radius: 5px;
+            &:hover {
+                background: lighten($primary-color, 15%);
+            }
+            .active-arrow {
+                transform: rotate(180deg);
+                transition: all 0.25s ease-in-out;
+            }
+            &:hover {
+                cursor: pointer;
+            }
+            &.active {
+                transition: all 0.5s ease-in-out;
+                background: $primary-color;
+            }
+            .tab-info {
+                background: #fff;
+                color: #001;
+                padding: 1.5rem;
+                display: none;
+                margin-top: 0.25rem;
+                ul {
+                    margin: 0.5rem 0rem 1rem 0rem;
+                }
+                &.active {
+                    display: block;
+                }
+                p {
+                    padding: $padding 0rem;
+                }
+                ol {
+                    margin: 0.5rem 1rem;
+                    padding: 0;
+                }
+                ul li,
+                ol li {
+                    padding: 0.25rem 0rem;
+                }
+            }
+        }
+    }
+}

@@ -7,7 +7,7 @@
 		"uuidString": "E4A4942E-AF2C-460D-87F2-C95DCA362BB3"
 		}
 	],
-"creatorBuild": "31934",
+"creatorBuild": "32137",
 "files": {
 	"/404.php": {
 		"cB": 0,
@@ -15,6 +15,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/404.php",
+		"oF": 0
+		},
+	"/agents-grid.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/agents-grid.php",
 		"oF": 0
 		},
 	"/archive.php": {
@@ -41,6 +49,14 @@
 		"oAP": "/author.php",
 		"oF": 0
 		},
+	"/callout-grid.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/callout-grid.php",
+		"oF": 0
+		},
 	"/category.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -65,6 +81,38 @@
 		"oAP": "/contact-band.php",
 		"oF": 0
 		},
+	"/contact-us.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/contact-us.php",
+		"oF": 0
+		},
+	"/current-owners.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/current-owners.php",
+		"oF": 0
+		},
+	"/current-tenants.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/current-tenants.php",
+		"oF": 0
+		},
+	"/custom-agents.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/custom-agents.php",
+		"oF": 0
+		},
 	"/custom-contact.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -81,6 +129,22 @@
 		"oAP": "/custom-home.php",
 		"oF": 0
 		},
+	"/custom-owner-faqs.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/custom-owner-faqs.php",
+		"oF": 0
+		},
+	"/custom-owners-info.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/custom-owners-info.php",
+		"oF": 0
+		},
 	"/custom-owners.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -95,6 +159,38 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/custom-resources.php",
+		"oF": 0
+		},
+	"/custom-sell-property.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/custom-sell-property.php",
+		"oF": 0
+		},
+	"/custom-services.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/custom-services.php",
+		"oF": 0
+		},
+	"/custom-tenant-faqs.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/custom-tenant-faqs.php",
+		"oF": 0
+		},
+	"/custom-tenants-info.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/custom-tenants-info.php",
 		"oF": 0
 		},
 	"/custom-tenants.php": {
@@ -185,8 +281,8 @@
 		"oA": 0,
 		"oAP": "/images/chat-photo.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -200,6 +296,17 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/images/contact-band.jpg": {
+		"ft": 16384,
+		"iS": 127306,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/contact-band.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/images/emailus.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -209,6 +316,17 @@
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
+		},
+	"/images/homes-bg.jpg": {
+		"ft": 16384,
+		"iS": 137122,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/homes-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"/images/hp-banner.jpg": {
 		"ft": 16384,
@@ -241,6 +359,28 @@
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
+		},
+	"/images/services-banner.jpg": {
+		"ft": 16384,
+		"iS": 42258,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/services-banner.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/tabs/agents.jpg": {
+		"ft": 16384,
+		"iS": 17927,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/tabs/agents.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/images/tabs/contact.jpg": {
 		"ft": 16384,
@@ -414,6 +554,22 @@
 		"oAP": "/index.php",
 		"oF": 0
 		},
+	"/inquiring-owners.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/inquiring-owners.php",
+		"oF": 0
+		},
+	"/inquiring-tenants.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/inquiring-tenants.php",
+		"oF": 0
+		},
 	"/irg-wireframe.jpg": {
 		"ft": 16384,
 		"iS": 1186040,
@@ -424,6 +580,36 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/js/bulma-script-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/bulma-script-min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"/js/main.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "/js/main-min.js",
+		"oF": 1,
+		"sC": 0,
+		"tS": 0
+		},
+	"/mobile-menu.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/mobile-menu.php",
+		"oF": 0
 		},
 	"/nav-below-single.php": {
 		"cB": 0,
@@ -441,12 +627,34 @@
 		"oAP": "/nav-below.php",
 		"oF": 0
 		},
+	"/node_modules": {
+		"ft": 65536,
+		"oA": 2,
+		"oAP": "/build/node_modules",
+		"oF": 0
+		},
+	"/owners-info.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/owners-info.php",
+		"oF": 0
+		},
 	"/page.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/page.php",
+		"oF": 0
+		},
+	"/proposal-banner.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/proposal-banner.php",
 		"oF": 0
 		},
 	"/readme.html": {
@@ -487,109 +695,213 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/scss/_accordion.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/_accordion.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/scss/_biogrid.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/_biogrid.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/scss/_callout-grid.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/_callout-grid.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
 	"/scss/_components.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/_components.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/_contact-band.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/_contact-band.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
+		},
+	"/scss/_contact-us.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/_contact-us.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
 		},
 	"/scss/_footer.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/_footer.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
-	"/scss/_grid-with-links.scss": {
+	"/scss/_full-width-bg-video.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/_grid-with-links.css",
+		"oAP": "/scss/_full-width-bg-video.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
+		},
+	"/scss/_grid-styles.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/_grid-styles.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
 		},
 	"/scss/_header.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/_header.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/_margins-padding-helper.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/_margins-padding-helper.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
+		},
+	"/scss/_mobile-menu.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/_mobile-menu.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/scss/_proposal-banner.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/_proposal-banner.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/scss/_sidebar.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/_sidebar.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
 		},
 	"/scss/_variables.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/_variables.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/scss/style.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/style.css",
 		"oF": 2,
 		"oS": 3,
-		"uL": 1
+		"sct": 1
 		},
 	"/search.php": {
 		"cB": 0,
@@ -633,12 +945,36 @@
 		"oAP": "/tag.php",
 		"oF": 0
 		},
+	"/tenants-info.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/tenants-info.php",
+		"oF": 0
+		},
+	"/test.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/test.html",
+		"oF": 0
+		},
 	"/variables.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/variables.php",
+		"oF": 0
+		},
+	"/video/sell-property.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/video/sell-property.mp4",
 		"oF": 0
 		}
 	},
@@ -1247,6 +1583,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"grouped-accessor-pairs": {
+			"active": 0,
+			"optionString": "'anyOrder'"
+			},
 		"guard-for-in": {
 			"active": 0,
 			"optionString": ""
@@ -1423,6 +1763,10 @@
 			"active": 1,
 			"optionString": "{'checkLoops': true}"
 			},
+		"no-constructor-return": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-continue": {
 			"active": 0,
 			"optionString": ""
@@ -1448,6 +1792,10 @@
 			"optionString": ""
 			},
 		"no-dupe-class-members": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-else-if": {
 			"active": 1,
 			"optionString": ""
 			},
@@ -1751,6 +2099,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-setter-return": {
+			"active": 1,
+			"optionString": ""
+			},
 		"no-shadow": {
 			"active": 0,
 			"optionString": "{'builtinGlobals': false, 'hoist': 'functions', 'allow': []}"
@@ -1954,6 +2306,10 @@
 		"prefer-destructuring": {
 			"active": 0,
 			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
+			},
+		"prefer-exponentiation-operator": {
+			"active": 0,
+			"optionString": ""
 			},
 		"prefer-named-capture-group": {
 			"active": 0,
@@ -2541,7 +2897,7 @@
 		"quality": 100
 		},
 	"languageDefaultsJS": {
-		"autoOutputAction": 0,
+		"autoOutputAction": 1,
 		"autoOutputPathFilenamePattern": "*-min.js",
 		"autoOutputPathRelativePath": "/min",
 		"autoOutputPathReplace1": "",
@@ -2550,7 +2906,7 @@
 		"bundleFormat": 0,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
-		"syntaxCheckerStyle": 3,
+		"syntaxCheckerStyle": 0,
 		"transpilerStyle": 0
 		},
 	"languageDefaultsJSON": {
@@ -2651,13 +3007,13 @@
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
+		"compilerType": 1,
 		"createSourceMap": 0,
-		"debugStyle": 0,
 		"decimalPrecision": 10,
+		"emitCharset": 1,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 1
+		"shouldRunBless": 0
 		},
 	"languageDefaultsSLIM": {
 		"autoOutputAction": 0,

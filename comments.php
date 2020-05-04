@@ -1,3 +1,4 @@
+<div class="content-comments">
 <div id="comments">
 <?php
 if ( have_comments() ) :
@@ -37,4 +38,5 @@ endif;
 endif;
 if ( comments_open() ) { comment_form(); }
 ?>
+</div>
 </div>

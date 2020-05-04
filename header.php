@@ -9,7 +9,7 @@
         <body <?php body_class();?>>
             <div id="wrapper" class="hfeed">
                 <?php if ( is_front_page() ) : ?>
-                    <!--Absolutely positioned on top of slider-->
+                    <!--Absolutely positioned on top of slider, only displays on front page-->
                     <header id="front-header">
                 <?php else : ?>
                     <!--Positioned relatively-->
@@ -25,6 +25,7 @@
                                 <nav id="menu">
                                     <?php wp_nav_menu(array('theme_location' => 'main-menu'));?>
                                     <!--<div id="search"><?php get_search_form();?></div>-->
+                                    <i class="fas fa-bars" id="mobile-menu"></i>
                                 </nav>
                             </div>
                             <!--<div id="site-description"><?php bloginfo('description');?></div>-->
@@ -36,3 +37,5 @@
                     </div>
                     <?php endif; ?>
                 <div id="container">
+                <!--Mobile Menu is intentionally placed out of header to avoid same styling-->
+                <?php include 'mobile-menu.php' ?>

@@ -16,11 +16,22 @@
         align-items: center;
         #main-logo {
             flex: 1;
-            min-width: 200px;
+            min-width: 250px;
         }
         #menu {
             flex: 4;
             text-align: right;
+            #mobile-menu {
+                display: none;
+                transition: color 0.25s ease-in-out;
+                @media screen and (max-width: $mobilebreakpoint) {
+                    display: block;
+                }
+                &:hover {
+                    cursor: pointer;
+                    color: $primary-color;
+                }
+            }
             ul {
                 li {
                     display: inline;
@@ -65,6 +76,34 @@
                         }
                     }
                 }
+            }
+        }
+    }
+}
+
+/* mobile menu */
+#menu-main-menu {
+    @media screen and (max-width: $mobilebreakpoint) {
+        display: none;
+    }
+}
+
+#mobile-menu-container {
+    position: fixed;
+    top: 0;
+    right: -245px;
+    z-index: 100;
+    text-align: right;
+    height: 100%;
+    transition: all 0.25s ease-in-out;
+    padding: 1.6rem 3rem 3rem 3rem;
+    background: rgba(46, 49, 145, 0.85);
+    border-left: 2px solid darken($primary-color, 10%);
+    ul {
+        li {
+            padding: 0.5rem 0rem;
+            a {
+                color: #fff;
             }
         }
     }

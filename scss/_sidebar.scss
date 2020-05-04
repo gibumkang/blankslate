@@ -1,0 +1,23 @@
+#sidebar {
+    background: $primary-color;
+    margin: 0rem;
+    padding: $padding 3rem;
+    text-align: center;
+    color: #fff;
+    input.search-field {
+        padding: 0.2rem 0.5rem;
+        border-radius: 5px;
+        border: 0px;
+    }
+    input.search-submit {
+        background: $secondary-color;
+        border-radius: 5px;
+        border: 0px;
+        padding: 0.25rem 0.5rem;
+        color: #fff;
+        font-weight: bold;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

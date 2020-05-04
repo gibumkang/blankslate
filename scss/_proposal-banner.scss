@@ -1,0 +1,17 @@
+.proposal-banner {
+    text-align: center;
+    background: $primary-red;
+    padding: 3rem;
+    color: #fff;
+    h2 {
+        margin-bottom: 0.5rem;
+    }
+    p {
+        margin-bottom: 1rem;
+    }
+    a {
+        @include pill-button($secondary-color, #fff);
+        font-size: 1rem;
+        letter-spacing: 1px;
+    }
+}

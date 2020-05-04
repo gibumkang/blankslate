@@ -1,0 +1,77 @@
+#footer {
+    background: #424242;
+    color: #fff;
+    #content {
+        max-width: $max-width;
+        padding: 2.5rem $padding;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        @media screen and (max-width: 785px) {
+            grid-template-columns: repeat(2, 1fr);
+            div {
+                margin: 0.5rem auto;
+                min-width: 200px;
+            }
+        }
+        @media screen and (max-width: 500px) {
+            div {
+                min-width: 100%;
+            }
+        }
+        .contact-information {
+            flex: 2;
+        }
+        .address {
+            li {
+                i {
+                    padding-right: 0.3rem;
+                }
+                padding: 0.25rem 0rem;
+                font-size: 0.9rem;
+            }
+        }
+        div {
+            flex: 1;
+            padding: 0rem 0.5rem;
+            .title {
+                color: #999;
+                font-size: 0.7rem;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                padding: 0rem 0.5rem;
+            }
+            #menu-main-menu-1,
+            #menu-owners,
+            #menu-owners-1,
+            #menu-tenants,
+            #menu-tenants-1,
+            #menu-resources,
+            #menu-resources-1 {
+                li {
+                    a {
+                        color: #fff;
+                        font-size: 0.9rem;
+                        &:hover {
+                            color: $warning;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .disclaimer {
+        max-width: $max-width;
+        margin: 0 auto;
+        padding: $padding;
+        span,
+        a {
+            font-size: 0.75rem;
+            color: #ccc;
+            transition: all 0.25s ease-in-out;
+        }
+        a:hover {
+            color: $warning;
+        }
+    }
+}
