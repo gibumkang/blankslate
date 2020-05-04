@@ -169,6 +169,14 @@
 		"oAP": "/custom-owners.php",
 		"oF": 0
 		},
+	"/custom-proposal.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/custom-proposal.php",
+		"oF": 0
+		},
 	"/custom-resources.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -375,6 +383,17 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"/images/proposal-bg.jpg": {
+		"ft": 16384,
+		"iS": 23549,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/proposal-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/images/rgb-americana-logo.svg": {
@@ -887,6 +906,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/_proposal-banner.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/scss/_proposal.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/_proposal.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1

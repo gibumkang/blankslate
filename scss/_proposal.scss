@@ -1,0 +1,36 @@
+.proposal-container {
+    display: flex;
+    align-items: center;
+    background: url("images/proposal-bg.jpg") no-repeat center;
+    background-size: cover;
+    span {
+        flex: 1;
+        padding: 2rem;
+        p {
+            max-width: 400px;
+            margin: 0 auto;
+            font-size: 1.15rem;
+        }
+    }
+    span:nth-child(1) {
+        color: #fff;
+        text-align: center;
+    }
+    @media screen and (max-width: 700px) {
+        display: block;
+        padding: $padding;
+        span:nth-child(1) {
+            border-right: 0px;
+        }
+    }
+    .form {
+        background: rgba(255, 255, 255, 0.75);
+        @media screen and (max-width: 700px) {
+            background: none;
+            label,
+            div {
+                color: #fff;
+            }
+        }
+    }
+}
