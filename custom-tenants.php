@@ -12,7 +12,7 @@
             <hr/>
             <p><?php the_field('header_description')?></p>
         </div>
-        <div class="pt-50 pb-50">
+        <div class="pt-50 pb-50" id="grid-links">
             <?php wp_nav_menu( array( 'theme_location' => 'tenants', 'container_class' => 'tenants-links' ));?>
         </div>
     </div>

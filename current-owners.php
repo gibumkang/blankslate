@@ -6,7 +6,7 @@
         <i class="fas fa-chevron-circle-up active-arrow"></i> I JUST RECEIVED MY MONTHLY STATEMENT BUT THERE WASN'T A CHECK, WHY NOT?
         <div class="tab-info active">
         <p>
-        There could be a number of reasons of why this happened. The first and most obvious is that the tenant didn't pay. You need to look at your statements first to determine this. If they did pay there normally would be rent received in the income column of your owner statement. Please give your property manager a call if you have any concerns and they will be glad to answer any questions you might have.
+            There could be a number of reasons of why this happened. The first and most obvious is that the tenant didn't pay. You need to look at your statements first to determine this. If they did pay there normally would be rent received in the income column of your owner statement. Please give your property manager a call if you have any concerns and they will be glad to answer any questions you might have.
         </p>
         <p>
             The second most common problem is that your expenses exceeded the income. You should then find one or more receipts or paid invoices in with your statement. In addition there is a listing of expenses paid on your statement in the Expense column.

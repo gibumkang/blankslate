@@ -7,7 +7,7 @@
 		"uuidString": "E4A4942E-AF2C-460D-87F2-C95DCA362BB3"
 		}
 	],
-"creatorBuild": "32137",
+"creatorBuild": "32186",
 "files": {
 	"/.gitignore": {
 		"cB": 0,
@@ -167,6 +167,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/custom-owners.php",
+		"oF": 0
+		},
+	"/custom-portal.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/custom-portal.php",
 		"oF": 0
 		},
 	"/custom-proposal.php": {
@@ -417,6 +425,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/images/tabs/agents-login.jpg": {
+		"ft": 16384,
+		"iS": 10649,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/tabs/agents-login.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/tabs/agents.jpg": {
 		"ft": 16384,
 		"iS": 17927,
@@ -569,6 +588,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"/images/tabs/tenants-login.jpg": {
+		"ft": 16384,
+		"iS": 13803,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/tabs/tenants-login.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/images/tabs/testimonial.jpg": {
@@ -1586,6 +1616,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"default-case-last": {
+			"active": 0,
+			"optionString": ""
+			},
 		"default-param-last": {
 			"active": 0,
 			"optionString": ""
@@ -1998,6 +2032,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-loss-of-precision": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-magic-numbers": {
 			"active": 0,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
@@ -2113,6 +2151,10 @@
 		"no-regex-spaces": {
 			"active": 1,
 			"optionString": ""
+			},
+		"no-restricted-exports": {
+			"active": 0,
+			"optionString": "{'restrictedNamedExports': []}"
 			},
 		"no-restricted-globals": {
 			"active": 0,
@@ -2257,6 +2299,10 @@
 		"no-use-before-define": {
 			"active": 0,
 			"optionString": "{'functions': true, 'classes': true, 'variables': true}"
+			},
+		"no-useless-backreference": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-useless-call": {
 			"active": 0,

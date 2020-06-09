@@ -37,3 +37,16 @@
         })
     }
 }
+
+{
+    //grid buttons are entirely clickable instead of just the text itself
+    let links = ['menu-owners', 'menu-tenants', 'menu-resources', 'menu-portal']
+    links.forEach((e) => {
+        let menu = document.querySelector(`#grid-links #${e}`)
+        if (menu) {
+            menu.addEventListener('click', (e) => {
+                window.location.href = e.target.children[0].href
+            })
+        }
+    })
+}

@@ -2,7 +2,8 @@
 .main-wrapper {
     #menu-owners,
     #menu-tenants,
-    #menu-resources {
+    #menu-resources,
+    #menu-portal {
         display: grid;
         max-width: $max-width;
         grid-template-columns: repeat(3, 1fr);
@@ -20,6 +21,9 @@
             border: 1px solid #ccc;
             border-radius: 5px;
             margin: 0.5rem;
+            &:hover {
+                cursor: pointer;
+            }
             a {
                 font-size: 1.5rem;
                 font-weight: bold;
@@ -91,6 +95,18 @@
         }
         li:nth-child(6) {
             @include tabs("images/tabs/agents.jpg");
+        }
+    }
+
+    #menu-portal {
+        li:nth-child(1) {
+            @include tabs("images/tabs/owners-login.jpg");
+        }
+        li:nth-child(2) {
+            @include tabs("images/tabs/tenants-login.jpg");
+        }
+        li:nth-child(3) {
+            @include tabs("images/tabs/agents-login.jpg");
         }
     }
 }

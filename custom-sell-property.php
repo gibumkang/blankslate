@@ -19,7 +19,7 @@
                 <div><img src="<?php the_field('agent_photo_4')?>" alt=""></div>
             </div>
             <p><?php the_field('header_description')?></p>
-            <a href="#" class="button">See All Agents</a>
+            <a href="our-agents/" class="button">See All Agents</a>
         </div>
     </div>
     <?php include 'contact-band.php' ?>

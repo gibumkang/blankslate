@@ -17,6 +17,7 @@ function register_my_menus(){
             'owners' => __('Owners', 'blankslate'),
             'tenants' => __('Tenants', 'blankslate'),
             'resources' => __('Resources', 'blankslate'),
+            'portal' => __('Portal', 'blankslate'),
         )
     );
 }
@@ -128,6 +129,7 @@ function blankslate_custom_pings($comment)
 }
 add_filter('get_comments_number', 'blankslate_comment_count', 0);
 function blankslate_comment_count($count)
+
 {
     if (!is_admin()) {
         global $id;
