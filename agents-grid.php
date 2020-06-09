@@ -5,7 +5,7 @@
             <div class="name"><?php the_field('agent_name_1')?></div>
             <div class="position"><?php the_field('agent_position_1')?></div>
             <div class="contact">
-                <div><a href="mailto:<?php the_field('agent_email_1')?>" class="email">email agent</a></div>
+                <div><a href="mailto:<?php the_field('agent_email_1')?>" class="email">email</a></div>
                 <div><?php the_field('agent_phone_1')?></div>
             </div>
         </span>
@@ -16,7 +16,7 @@
             <div class="name"><?php the_field('agent_name_2')?></div>
             <div class="position"><?php the_field('agent_position_2')?></div>
             <div class="contact">
-                <div><a href="mailto:<?php the_field('agent_email_2')?>" class="email">email agent</a></div>
+                <div><a href="mailto:<?php the_field('agent_email_2')?>" class="email">email</a></div>
                 <div><?php the_field('agent_phone_2')?></div>
             </div>
         </span>
@@ -27,7 +27,7 @@
             <div class="name"><?php the_field('agent_name_3')?></div>
             <div class="position"><?php the_field('agent_position_3')?></div>
             <div class="contact">
-                <div><a href="mailto:<?php the_field('agent_email_3')?>" class="email">email agent</a></div>
+                <div><a href="mailto:<?php the_field('agent_email_3')?>" class="email">email</a></div>
                 <div><?php the_field('agent_phone_3')?></div>
             </div>
         </span>
@@ -38,7 +38,7 @@
             <div class="name"><?php the_field('agent_name_4')?></div>
             <div class="position"><?php the_field('agent_position_4')?></div>
             <div class="contact">
-                <div><a href="mailto:<?php the_field('agent_email_4')?>" class="email">email agent</a></div>
+                <div><a href="mailto:<?php the_field('agent_email_4')?>" class="email">email</a></div>
                 <div><?php the_field('agent_phone_4')?></div>
             </div>
         </span>
@@ -49,18 +49,18 @@
             <div class="name"><?php the_field('agent_name_5')?></div>
             <div class="position"><?php the_field('agent_position_5')?></div>
             <div class="contact">
-                <div><a href="mailto:<?php the_field('agent_email_5')?>" class="email">email agent</a></div>
+                <div><a href="mailto:<?php the_field('agent_email_5')?>" class="email">email</a></div>
                 <div><?php the_field('agent_phone_5')?></div>
             </div>
         </span>
     </div>
-    <div>
+    <!--<div>
         <img src="<?php the_field('agent_photo_6')?>" alt="<?php the_field('agent_name_6')?>" />
         <span class="info">
             <div class="name"><?php the_field('agent_name_6')?></div>
             <div class="position"><?php the_field('agent_position_6')?></div>
             <div class="contact">
-                <div><a href="mailto:<?php the_field('agent_email_6')?>" class="email">email agent</a></div>
+                <div><a href="mailto:<?php the_field('agent_email_6')?>" class="email">email</a></div>
                 <div><?php the_field('agent_phone_6')?></div>
             </div>
         </span>
@@ -71,7 +71,7 @@
             <div class="name"><?php the_field('agent_name_7')?></div>
             <div class="position"><?php the_field('agent_position_7')?></div>
             <div class="contact">
-                <div><a href="mailto:<?php the_field('agent_email_7')?>" class="email">email agent</a></div>
+                <div><a href="mailto:<?php the_field('agent_email_7')?>" class="email">email</a></div>
                 <div><?php the_field('agent_phone_7')?></div>
             </div>
         </span>
@@ -82,7 +82,7 @@
             <div class="name"><?php the_field('agent_name_8')?></div>
             <div class="position"><?php the_field('agent_position_8')?></div>
             <div class="contact">
-                <div><a href="mailto:<?php the_field('agent_email_8')?>" class="email">email agent</a></div>
+                <div><a href="mailto:<?php the_field('agent_email_8')?>" class="email">email</a></div>
                 <div><?php the_field('agent_phone_8')?></div>
             </div>
         </span>
@@ -93,7 +93,7 @@
             <div class="name"><?php the_field('agent_name_9')?></div>
             <div class="position"><?php the_field('agent_position_9')?></div>
             <div class="contact">
-                <div><a href="mailto:<?php the_field('agent_email_9')?>" class="email">email agent</a></div>
+                <div><a href="mailto:<?php the_field('agent_email_9')?>" class="email">email</a></div>
                 <div><?php the_field('agent_phone_9')?></div>
             </div>
         </span>
@@ -104,7 +104,7 @@
             <div class="name"><?php the_field('agent_name_10')?></div>
             <div class="position"><?php the_field('agent_position_10')?></div>
             <div class="contact">
-                <div><a href="mailto:<?php the_field('agent_email_10')?>" class="email">email agent</a></div>
+                <div><a href="mailto:<?php the_field('agent_email_10')?>" class="email">email</a></div>
                 <div><?php the_field('agent_phone_10')?></div>
             </div>
         </span>
@@ -115,7 +115,7 @@
             <div class="name"><?php the_field('agent_name_11')?></div>
             <div class="position"><?php the_field('agent_position_11')?></div>
             <div class="contact">
-                <div><a href="mailto:<?php the_field('agent_email_11')?>" class="email">email agent</a></div>
+                <div><a href="mailto:<?php the_field('agent_email_11')?>" class="email">email</a></div>
                 <div><?php the_field('agent_phone_11')?></div>
             </div>
         </span>
@@ -126,9 +126,9 @@
             <div class="name"><?php the_field('agent_name_12')?></div>
             <div class="position"><?php the_field('agent_position_12')?></div>
             <div class="contact">
-                <div><a href="mailto:<?php the_field('agent_email_12')?>" class="email">email agent</a></div>
+                <div><a href="mailto:<?php the_field('agent_email_12')?>" class="email">email</a></div>
                 <div><?php the_field('agent_phone_12')?></div>
             </div>
         </span>
-    </div>
+    </div>-->
 </div>
