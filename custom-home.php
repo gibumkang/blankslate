@@ -44,7 +44,7 @@
             </div>
             <div class="text-area">
                 Reach Out to us via <strong>Phone, Email,</strong> or <strong>Live Chat</strong>
-                <a href="#" class="live-chat">Live Chat Now</a>
+                <span class="live-chat drift-open-chat">Live Chat Now</span>
             </div>
         </div>
     </div>

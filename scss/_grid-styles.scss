@@ -57,22 +57,16 @@
     }
 
     #menu-tenants {
+        // Rental
         li:nth-child(1) {
             @include tabs("images/tabs/rentals.jpg");
         }
+        // Repair
         li:nth-child(2) {
             @include tabs("images/tabs/repair.jpg");
         }
+        // Application
         li:nth-child(3) {
-            @include tabs("images/tabs/faqs.jpg");
-        }
-        li:nth-child(4) {
-            @include tabs("images/tabs/reviews.jpg");
-        }
-        li:nth-child(5) {
-            @include tabs("images/tabs/knowledgebase.jpg");
-        }
-        li:nth-child(6) {
             @include tabs("images/tabs/property.jpg");
         }
     }
