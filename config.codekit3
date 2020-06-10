@@ -447,6 +447,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/images/tabs/application.jpg": {
+		"ft": 16384,
+		"iS": 10151,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/tabs/application.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/tabs/contact.jpg": {
 		"ft": 16384,
 		"iS": 18369,
@@ -656,17 +667,6 @@
 		"oA": 0,
 		"oAP": "/inquiring-tenants.php",
 		"oF": 0
-		},
-	"/irg-wireframe.jpg": {
-		"ft": 16384,
-		"iS": 1186040,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/irg-wireframe.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
 		},
 	"/js/bulma-script-min.js": {
 		"bF": 0,

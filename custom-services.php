@@ -7,7 +7,8 @@
 <?php get_header();?>
 <main id="content">
     <div class="main-wrapper">
-        <div class="spacer">
+        <?php include('callout-grid.php') ?>
+        <!-- <div class="spacer">
             <p>
                 <?php the_field('introduction')?>
             </p>
@@ -29,15 +30,10 @@
                 </div>
             </div>
             <img src="<?php echo $imagepath; ?>services-banner.jpg" alt="Americana Property Management" />
-        </div>
+        </div> -->
     </div>
     <!--Full Width-->
     <?php include('proposal-banner.php') ?>
-    <div class="main-wrapper">
-        <div class="spacer">
-            <?php include('callout-grid.php') ?>
-        </div>
-    </div>
 </main>
 <?php get_sidebar();?>
 <?php get_footer();?>

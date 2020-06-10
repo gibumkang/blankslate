@@ -20,50 +20,11 @@
         </div>
     </div>
     <div class="main-wrapper">
-        <div class="grid-2-4-v2">
-            <div>
-                <i class="fab fa-font-awesome-flag"></i>
-                <h3>NO START-UP FEE</h3>
-                <p>
-                    Most management firms will require a fee to set up your account. Americana does not charge any start up fees. In fact, all that's required to start managing your property is an executed management agreement and keys to the property.
-                </p>
-            </div>
-            <div>
-                <i class="fas fa-eye-slash"></i>
-                <h3>NO INSPECTION FEE</h3>
-                <p>
-                Knowing that your property is being taken care of shouldn't cost extra. Americana provides free inspections prior to listing, after tenants move out, and during occupancy if needed to verify that the tenant is complying with the lease terms.
-                </p>
-            </div>
-            <div>
-                <i class="fas fa-paste"></i>
-                <h3>NO 1099 FEE</h3>
-                <p>
-                Nobody enjoys tax time. Americana believes that you shouldn't have to pay an additional fee just to receive your 1099 each year. You've already paid a management fee for any collected rents, why pay more?
-                </p>
-            </div>
-            <div>
-                <i class="far fa-check-circle"></i>
-                <h3>NO RENEWAL FEE</h3>
-                <p>
-                Everyone benefits when a tenant stays long term, so we don't believe in penalizing you to renew a tenant's lease. All lease renewals are done at no extra cost.
-                </p>
-            </div>
-        </div>
-        <hr/>
-        <h2 class="text-center">Management Fee</h2>
-        <hr/>
         <div class="grid-2-4-v2 percentage">
             <div>
                 <h3>10%</h3>
                 <p>
                     Single family homes, condos, townhouses, and multiplexes without on-site management.
-                </p>
-            </div>
-            <div>
-                <h3>9%</h3>
-                <p>
-                    Receive a 1% fee discount on new construction properties for the first year of management.
                 </p>
             </div>
             <div>
@@ -76,6 +37,45 @@
                 <h3>5%</h3>
                 <p>
                     Apartment complexes with over 50 units and on-site management in place.
+                </p>
+            </div>
+            <div>
+                <h3>9%</h3>
+                <p>
+                    Our Veterans receive a 10% discount on our management services.
+                </p>
+            </div>
+        </div>
+        <hr/>
+        <h2 class="text-center">Management Fee</h2>
+        <hr/>
+        <div class="grid-2-4-v2">
+            <div>
+                <i class="fab fa-font-awesome-flag"></i>
+                <h3>NO START-UP FEE</h3>
+                <p>
+                    We do not charge start up fees, all we need is a set of keys and a signed agreement.
+                </p>
+            </div>
+            <div>
+                <i class="fas fa-eye-slash"></i>
+                <h3>NO INSPECTION FEE</h3>
+                <p>
+                    We provide free inspections prior to listing, during occupancy if needed to verify that the tenant is complying with the lease terms, and after tenants move out.
+                </p>
+            </div>
+            <div>
+                <i class="fas fa-paste"></i>
+                <h3>NO 1099 FEE</h3>
+                <p>
+                    Nobody enjoys tax time; we will make it easier for you without extra fees.
+                </p>
+            </div>
+            <div>
+                <i class="far fa-check-circle"></i>
+                <h3>NO RENEWAL FEE</h3>
+                <p>
+                    Everyone should benefit when a tenant stays longer, no need for fees.
                 </p>
             </div>
         </div>
