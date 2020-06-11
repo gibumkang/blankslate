@@ -1,3 +1,6 @@
+<div class="full-width about-us-agents">
+    <?php include 'agents-grid.php' ?>
+</div>
 <div class="full-width contact-us-container">
     <span class="contact-description">
         <h2><?php the_field('header_text')?></h2>

@@ -55,13 +55,13 @@
         li:nth-child(1) {
             @include tabs("images/tabs/rentals.jpg");
         }
-        // Repair
-        li:nth-child(2) {
-            @include tabs("images/tabs/repair.jpg");
-        }
         // Application
-        li:nth-child(3) {
+        li:nth-child(2) {
             @include tabs("images/tabs/application.jpg");
+        }
+        // Repair
+        li:nth-child(3) {
+            @include tabs("images/tabs/repair.jpg");
         }
     }
 
