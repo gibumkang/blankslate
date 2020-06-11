@@ -1,6 +1,3 @@
-<div class="full-width about-us-agents">
-    <?php include 'agents-grid.php' ?>
-</div>
 <div class="full-width contact-us-container">
     <span class="contact-description">
         <h2><?php the_field('header_text')?></h2>
@@ -15,5 +12,14 @@
     <span>
         <?php echo do_shortcode('[wpforms id="143" title="false" description="false"]'); ?>
     </span>
+</div>
+<div class="full-width">
+    <hr/>
+        <h2 class="text-center">Our Agents</h2>
+    <hr/>
+    <?php include 'agents-grid.php' ?>
+    <hr/>
+        <h2 class="text-center">Find Our Location</h2>
+    <br/>
 </div>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3221.3324306701797!2d-115.19632304898525!3d36.15846437998806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c15e05495a95%3A0x911456bf09dec201!2s4033%20W%20Charleston%20Blvd%2C%20Las%20Vegas%2C%20NV%2089102!5e0!3m2!1sen!2sus!4v1586566188109!5m2!1sen!2sus" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>

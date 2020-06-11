@@ -6,7 +6,6 @@
 ?>
 <?php get_header();?>
 <main id="content">
-    <?php include 'agents-grid.php' ?>
     <?php include 'contact-us.php' ?>
 </main>
 <?php get_sidebar();?>
