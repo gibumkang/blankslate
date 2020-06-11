@@ -54,7 +54,7 @@
             </div>
         </span>
     </div>
-    <!--<div>
+    <div>
         <img src="<?php the_field('agent_photo_6')?>" alt="<?php the_field('agent_name_6')?>" />
         <span class="info">
             <div class="name"><?php the_field('agent_name_6')?></div>
@@ -76,7 +76,7 @@
             </div>
         </span>
     </div>
-    <div>
+    <!--<div>
         <img src="<?php the_field('agent_photo_8')?>" alt="<?php the_field('agent_name_8')?>" />
         <span class="info">
             <div class="name"><?php the_field('agent_name_8')?></div>
