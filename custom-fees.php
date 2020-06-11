@@ -7,17 +7,15 @@
 <?php get_header();?>
 <main id="content">
     <div class="full-width fees-banner">
-        <h2>Transparent Pricing</h2>
+        <h2>Management Fee</h2>
         <p>
-            Unexpected, hidden expenses can de-rail an otherwise solid investing plan. 
-            Americana's management fee structure is simple and straight-forward with no 
-            hidden fees or extraneous charges.
+        Our management fee structure is clear and simple, no hidden fees or charges.
         </p>
-        <div class="textbox">
+        <!--<div class="textbox">
             <div class="smalltext">As Low As</div>
             <div class="bigtext">5-10%</div>
             <div class="smalltext">Of Collected Rent</div>
-        </div>
+        </div>-->
     </div>
     <div class="main-wrapper">
         <div class="grid-2-4-v2 percentage">

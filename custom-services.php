@@ -8,7 +8,7 @@
 <main id="content">
     <div class="main-wrapper">
         <?php include('callout-grid.php') ?>
-        <!-- <div class="spacer">
+        <!--<div class="spacer">
             <p>
                 <?php the_field('introduction')?>
             </p>
@@ -21,7 +21,7 @@
         <p>
             Contact one of our licensed property managers today for a free, no-obligation management proposal. More information is also available on our FAQ page.
         </p>
-        <br/>
+        <br/>-->
         <div class="banner-card">
             <div class="banner-container">
                 <div class="banner-description">
@@ -30,7 +30,7 @@
                 </div>
             </div>
             <img src="<?php echo $imagepath; ?>services-banner.jpg" alt="Americana Property Management" />
-        </div> -->
+        </div>
     </div>
     <!--Full Width-->
     <?php include('proposal-banner.php') ?>
