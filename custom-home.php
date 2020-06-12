@@ -59,7 +59,7 @@
                     <li><strong>Free online proposal</strong></li>
                 </ul>
             </div>
-            <div><img src="<?php echo $imagepath; ?>ipad-user-min.png" alt="Visit Us Online"></div>
+            <div><img src="<?php echo $imagepath; ?>ipad-user-v2-min.png" alt="Visit Us Online"></div>
         </div>
     </div>
     <!--Full Width Banner-->

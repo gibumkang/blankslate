@@ -1,7 +1,18 @@
+<div class="main-wrapper text-center">
+    <div class="spacer">&nbsp;</div>
+    <p><?php the_field('header_description')?></p>
+    <br/>
+</div>
+<div class="full-width">
+    <hr/>
+        <h2 class="text-center">Our Agents</h2>
+    <hr/>
+    <?php include 'agents-grid.php' ?>
+    <hr/>
+</div>
 <div class="full-width contact-us-container">
     <span class="contact-description">
         <h2><?php the_field('header_text')?></h2>
-        <p><?php the_field('header_description')?></p>
         <div class="contact-box">
             <div><i class="fas fa-map-marker-alt"></i> <?php the_field('address')?></div>
             <div><i class="far fa-envelope"></i> <?php the_field('email')?></div>
@@ -14,11 +25,6 @@
     </span>
 </div>
 <div class="full-width">
-    <hr/>
-        <h2 class="text-center">Our Agents</h2>
-    <hr/>
-    <?php include 'agents-grid.php' ?>
-    <hr/>
         <h2 class="text-center">Find Our Location</h2>
     <br/>
 </div>
