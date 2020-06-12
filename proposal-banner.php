@@ -3,5 +3,5 @@
     <p>
         Find out how much your property will rent for and get a free management proposal.
     </p>
-    <a href="#">Free Proposal</a>
+    <a href="/free-proposal/">Free Proposal</a>
 </div>
