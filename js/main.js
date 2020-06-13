@@ -1,3 +1,4 @@
+//logic to stop redirect and send POST to external URL, function must be global
 const confirmation = () => {
     const proposalButton = document.getElementById('proposal-button')
     setTimeout(() => {
