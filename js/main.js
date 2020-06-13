@@ -1,3 +1,12 @@
+const confirmation = () => {
+    const proposalButton = document.getElementById('proposal-button')
+    setTimeout(() => {
+        proposalButton.disabled = true
+        proposalButton.innerText = 'Submission Sent!'
+        proposalButton.classList.add('submitted')
+    }, 1000)
+}
+
 {
     //controls the accordion
     let accordionTab = document.querySelectorAll('.accordion-tab')

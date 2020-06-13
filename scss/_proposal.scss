@@ -32,5 +32,30 @@
                 color: #fff;
             }
         }
+        form {
+            padding-left: 2.5rem;
+            .flex {
+                margin: 0.35rem 0rem;
+                display: flex;
+                div {
+                    flex: 1;
+                    input {
+                        width: 80%;
+                        padding: 0.35rem;
+                    }
+                }
+            }
+            button {
+                margin-top: 1rem;
+                transition: all 0.5s ease-in-out;
+                @include pill-button($secondary-color, #fff);
+                border: 2px solid darken($secondary-color, 5%);
+            }
+            .submitted,
+            .submitted:hover {
+                border: 2px solid darken(orange, 3%);
+                background: darken(orange, 3%);
+            }
+        }
     }
 }
