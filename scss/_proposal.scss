@@ -37,11 +37,23 @@
             .flex {
                 margin: 0.35rem 0rem;
                 display: flex;
+                @media screen and (max-width: 1000px) {
+                    display: block;
+                }
+                @media screen and (max-width: 700px) {
+                    display: flex;
+                }
+                @media screen and (max-width: 500px) {
+                    display: block;
+                }
                 div {
                     flex: 1;
                     input {
                         width: 80%;
                         padding: 0.35rem;
+                        @media screen and (max-width: 500px) {
+                            width: 90%;
+                        }
                     }
                 }
             }
