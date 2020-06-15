@@ -32,7 +32,7 @@
                 </p>
             </div>
             <div>
-                <h3>5%</h3>
+                <h3>6%</h3>
                 <p>
                     Apartment complexes with over 50 units and on-site management in place.
                 </p>
