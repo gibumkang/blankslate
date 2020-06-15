@@ -56,7 +56,7 @@
                     <li>Make payments <strong>online</strong></li>
                     <li><strong>Calculate</strong> costs and services</li>
                     <li>Log-in from your <strong>phone</strong> or <strong>tablet</strong></li>
-                    <li><strong>Free online proposal</strong></li>
+                    <li><a href="/free-proposal"><strong>Free online proposal</strong></a></li>
                 </ul>
             </div>
             <div><img src="<?php echo $imagepath; ?>ipad-user-v2-min.png" alt="Visit Us Online"></div>

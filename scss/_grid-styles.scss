@@ -172,9 +172,6 @@
 .grid-1-4 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    @media screen and (max-width: 800px) {
-        display: none;
-    }
     div {
         border: 1px solid #333;
         border-radius: 5px;

@@ -25,7 +25,11 @@
                                 <nav id="menu">
                                     <?php wp_nav_menu(array('theme_location' => 'main-menu'));?>
                                     <!--<div id="search"><?php get_search_form();?></div>-->
+                                    <?php if ( is_front_page() ) : ?>
                                     <i class="fas fa-bars" id="mobile-menu"></i>
+                                    <?php else : ?>
+                                    <i class="fas fa-bars dark" id="mobile-menu"></i>
+                                    <?php endif; ?>
                                 </nav>
                             </div>
                             <!--<div id="site-description"><?php bloginfo('description');?></div>-->

@@ -3,6 +3,9 @@
     #video {
         min-width: 100%;
         min-height: 100%;
+        @media screen and (max-width: 600px) {
+            display: none;
+        }
     }
     .content {
         position: absolute;
@@ -17,6 +20,13 @@
         opacity: 0;
         animation: fade-in 1s linear forwards;
         animation-delay: 3s;
+        @media screen and (max-width: 600px) {
+            width: 100%;
+            margin: 0 auto;
+            position: initial;
+            transform: none;
+            background: #001;
+        }
         h2,
         p {
             color: #fff;

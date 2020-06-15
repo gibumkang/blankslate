@@ -22,7 +22,9 @@
             <a href="/about-us/" class="button">About Us</a>
         </div>
     </div>
-    <?php include 'contact-band.php' ?>
+    <div class="clearfix">
+        <?php include 'contact-band.php' ?>
+    </div>
 </main>
 <?php get_sidebar();?>
 <?php get_footer();?>

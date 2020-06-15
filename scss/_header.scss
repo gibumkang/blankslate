@@ -22,14 +22,19 @@
             flex: 4;
             text-align: right;
             #mobile-menu {
+                color: #fff;
+                text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
                 display: none;
                 transition: color 0.25s ease-in-out;
                 @media screen and (max-width: $mobilebreakpoint) {
                     display: block;
                 }
+                &.dark {
+                    color: #001;
+                    text-shadow: none;
+                }
                 &:hover {
                     cursor: pointer;
-                    color: $primary-color;
                 }
             }
             ul {
