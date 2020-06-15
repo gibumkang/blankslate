@@ -6,7 +6,7 @@
                         <ul class="address">
                             <li><i class="fas fa-map-marker-alt"></i> 4033 W. Charleston Blvd. <br/> Las Vegas, NV 89102</li>
                             <li><a href="mailto:info@americanalv.com" target="_blank"><i class="far fa-envelope"></i> info@americanalv.com</a></li>
-                            <li><a href="tel:7022444777"><i class="fas fa-phone-volume"></i> 702.244.4777</a></li>
+                            <li><a href="tel:7022444777"><i class="fas fa-phone-volume"></i> 725.244.4777</a></li>
                             <li><span class="drift-open-chat"><i class="far fa-comments"></i> Live Chat Now</span></li>
                         </ul>
                     </div>
