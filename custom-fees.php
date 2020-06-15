@@ -18,7 +18,7 @@
         </div>-->
     </div>
     <div class="main-wrapper">
-        <div class="grid-2-4-v2 percentage">
+        <div class="grid-2-3 percentage">
             <div>
                 <h3>10%</h3>
                 <p>
@@ -37,15 +37,11 @@
                     Apartment complexes with over 50 units and on-site management in place.
                 </p>
             </div>
-            <div>
-                <h3>9%</h3>
-                <p>
-                    Our Veterans receive a 10% discount on our management services.
-                </p>
-            </div>
         </div>
         <hr/>
-        <h2 class="text-center">Management Fee</h2>
+        <h3 class="fees-midsection">
+        In honor of our veterans and appreciation to our first responders, we are offering them an initial <strong class="green-text">10%</strong> discount.
+        </h3>
         <hr/>
         <div class="grid-2-4-v2">
             <div>

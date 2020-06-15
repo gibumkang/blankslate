@@ -129,7 +129,8 @@
 }
 
 /* two rows, four columns grid with no 3 columns */
-.grid-2-4-v2 {
+.grid-2-4-v2,
+.grid-2-3 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     @media screen and (max-width: 900px) {
@@ -161,7 +162,13 @@
     }
 }
 
-.grid-2-4-v2.percentage {
+.grid-2-3 {
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-2-4-v2.percentage,
+.grid-2-3.percentage {
     h3 {
         font-size: 2.5rem;
         color: $secondary-color;
