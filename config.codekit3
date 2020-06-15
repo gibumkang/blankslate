@@ -388,8 +388,8 @@
 		"oA": 0,
 		"oAP": "/images/ipad-user-v2-min.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -433,7 +433,7 @@
 		"oAP": "/images/services-banner.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/tabs/agents-login.jpg": {
@@ -679,6 +679,28 @@
 		"oAP": "/inquiring-tenants.php",
 		"oF": 0
 		},
+	"/irg-wireframe.jpg": {
+		"ft": 16384,
+		"iS": 1186040,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/irg-wireframe.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/js/bulma-script-min-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/js/bulma-script-min-min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"/js/bulma-script-min.js": {
 		"bF": 0,
 		"ft": 64,
@@ -790,7 +812,7 @@
 		"oAP": "/screenshot.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/scss/_accordion.scss": {
