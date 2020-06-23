@@ -40,7 +40,7 @@
     <div class="full-width chat-bg">
         <div class="chat-module">
             <div class="photo">
-                <img src="<?php echo $imagepath; ?>agent.svg" alt="Chat With Us Today" />
+                <img src="<?php echo $imagepath; ?>agent-icon.svg" alt="Chat With Us Today" />
             </div>
             <div class="text-area">
                 Reach Out to us via <strong>Phone, Email,</strong> or <strong>Live Chat</strong>
