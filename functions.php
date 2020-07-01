@@ -68,7 +68,7 @@ add_filter('the_title', 'blankslate_title');
 function blankslate_title($title)
 {
     if ($title == '') {
-        return '...';
+        return 'Read More...';
     } else {
         return $title;
     }
@@ -77,7 +77,7 @@ add_filter('the_content_more_link', 'blankslate_read_more_link');
 function blankslate_read_more_link()
 {
     if (!is_admin()) {
-        return ' <a href="' . esc_url(get_permalink()) . '" class="more-link">...</a>';
+        return ' <a href="' . esc_url(get_permalink()) . '" class="more-link">Read More...</a>';
     }
 }
 add_filter('excerpt_more', 'blankslate_excerpt_read_more_link');
@@ -85,7 +85,7 @@ function blankslate_excerpt_read_more_link($more)
 {
     if (!is_admin()) {
         global $post;
-        return ' <a href="' . esc_url(get_permalink($post->ID)) . '" class="more-link">...</a>';
+        return ' <a href="' . esc_url(get_permalink($post->ID)) . '" class="more-link">Read More...</a>';
     }
 }
 add_filter('intermediate_image_sizes_advanced', 'blankslate_image_insert_override');

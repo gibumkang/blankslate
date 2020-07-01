@@ -37,7 +37,15 @@
                     </header>
                     <?php if ( !is_front_page() ) : ?>
                     <div class="full-width page-name-container">
-                        <div class="page-title"><h1><?php the_title() ?></h1></div>
+                        <div class="page-title">
+                            <h1>
+                            <?php if(is_home()) : ?>
+                                News
+                            <?php else : ?>
+                            <?php the_title() ?>
+                            <?php endif; ?>
+                            </h1>
+                        </div>
                     </div>
                     <?php endif; ?>
                 <div id="container">

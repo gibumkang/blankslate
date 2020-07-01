@@ -21,6 +21,13 @@
                     <div>
                         <strong class="title">Resources</strong>
                         <?php wp_nav_menu(array('theme_location' => 'resources'));?>
+                        <br/>
+                        <strong class="title">Follow Us</strong>
+                        <ul class="footer-social-links">
+                            <li><a target="_blank" href="https://www.facebook.com/Americana-Property-Mgmt-Real-Estate-LLC-103592961389021/?modal=admin_todo_tour"><i class="fab fa-facebook"></i></a></li>
+                            <li><a target="_blank" href="https://www.instagram.com/americanarealestatelv/"><i class="fab fa-instagram"></i></a></li>
+                            <li><a target="_blank" href="https://www.yelp.com/biz/americana-property-management-and-real-estate-las-vegas"><i class="fab fa-yelp"></i></a></li>
+                        </ul>
                     </div>
                 </div>
                 <div class="disclaimer">

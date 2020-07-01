@@ -14,6 +14,11 @@
     max-width: 65rem;
     margin: 0 auto;
     padding: 2.5rem 3rem;
+    h1,
+    h2 {
+        color: #333;
+        font-weight: bold;
+    }
     h1 {
         padding: 0.75rem 0rem 0.5rem 0rem;
     }
@@ -26,6 +31,11 @@
     p {
         padding: 0.75rem 0rem;
     }
+}
+
+.content-entry,
+.content-comments {
+    max-width: 50rem;
 }
 
 .homes-bg {
@@ -272,5 +282,69 @@
     margin: 0 auto;
     span {
         text-decoration: underline;
+    }
+}
+
+.comment-form-comment {
+    label {
+        display: none;
+    }
+    textarea#comment {
+        width: 100%;
+    }
+}
+
+.content-comments {
+    background: lighten(#999, 35%);
+}
+
+.posts-navigation,
+.post-navigation {
+    h2 {
+        @include letterspacing;
+        text-align: center;
+        font-weight: normal;
+        color: #999;
+    }
+    .nav-links {
+        display: flex;
+        div {
+            flex: 1;
+        }
+        .nav-next {
+            text-align: right;
+        }
+    }
+}
+
+.footer {
+    padding: 3rem 1.5rem 3rem;
+}
+
+.nav-links {
+    a {
+        color: #333;
+        font-size: 0.9rem;
+    }
+}
+
+.post-title-hide {
+    @media screen and (max-width: 600px) {
+        visibility: hidden;
+    }
+}
+
+.footer-social-links {
+    margin: 0.25rem 0 0 0.5rem;
+    li {
+        display: inline;
+        padding-right: 0.5rem;
+        a {
+            color: #eee;
+            transition: all 0.25s ease-in-out;
+            &:hover {
+                color: #fff;
+            }
+        }
     }
 }
