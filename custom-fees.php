@@ -40,7 +40,7 @@
         </div>
         <hr/>
         <h3 class="fees-midsection">
-        In honor of our veterans and appreciation to our first responders, we are offering them an initial <strong class="green-text">10%</strong> discount.
+        In honor of our veterans and in appreciation of <span>first</span> responders, we are offering them an initial <strong class="green-text">10%</strong> management discount.
         </h3>
         <hr/>
         <div class="grid-2-4-v2">

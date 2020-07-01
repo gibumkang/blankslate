@@ -4,7 +4,7 @@
         <div>
             <img src="<?php echo $imagepath; ?>callus.svg" alt="Call us" />
             <h4>Call Us</h4>
-            <a>702.244.4777</a>
+            <a>725.244.4777</a>
         </div>
         <div>
             <img src="<?php echo $imagepath; ?>emailus.svg" alt="Email us" />
